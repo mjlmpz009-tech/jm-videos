@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>J.M Vídeos</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #181818;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ff1744;
+}
+
+.container {
+  padding: 15px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.video {
+  background: #1c1c1c;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.video video {
+  width: 100%;
+  border-radius: 8px;
+  background: black;
+}
+
+.video h3 {
+  margin: 10px 5px 5px;
+}
+
+.video p {
+  color: #aaa;
+  margin: 5px;
+}
+
+.botao {
+  display: inline-block;
+  background: #ff1744;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🎬 J.M Vídeos</div>
+</header>
+
+<div class="container">
+
+  <h2>Vídeos recentes</h2>
+
+  <a class="botao" href="#videos">▶ Ver vídeos</a>
+
+  <div id="videos">
+
+    <div class="video">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+      </video>
+
+      <h3>Meu primeiro vídeo</h3>
+      <p>Bem-vindo ao J.M Vídeos!</p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
